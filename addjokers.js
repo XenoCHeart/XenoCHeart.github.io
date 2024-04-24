@@ -191,6 +191,11 @@ let rarities = {
   "Showdown": "#4584fa",
 }
 
+let banners = {
+  "CUCK": "#990000", 
+  "Archived": "#990000", 
+}
+
 regex = /{([^}]+)}/g;
 
 let add_cards_to_div = (jokers, jokers_div) => {
@@ -225,6 +230,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
         <h3>${joker.name}</h3>
         <img src="${joker.image_url}" alt="${joker.name}" class="hasback" />
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
         <div class="text">${joker.text}</div>
       `;
     } else if (joker.soul) {
@@ -235,6 +241,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
           <img src="${joker.image_url}" alt="${joker.name}" class="soul-top" />
         </span>
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
         <div class="text">${joker.text}</div>
       `;
     } else {
@@ -242,6 +249,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
         <h3>${joker.name}</h3>
         <img src="${joker.image_url}" alt="${joker.name}" />
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
         <div class="text">${joker.text}</div>
       `;
     }
