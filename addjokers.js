@@ -65,14 +65,44 @@ let card_modifications = [
 ]
 
 let decks = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Deck"
-  // },
+  {
+    name: "Plain Deck",
+    text: [
+      "Base Deck",
+    ],
+    image_url: "img/CUCK/decks/plaindeck.png",
+    rarity: "Deck"
+    banner: "CUCK"
+  },
+  {
+    name: "Extreme Deck",
+    text: [
+      "{C:blue}1{} hand",
+      "{C:red}1{} discard",
+    ],
+    image_url: "img/CUCK/decks/extremedeck.png",
+    rarity: "Deck"
+    banner: "CUCK"
+  },
+  {
+    name: "Plain Deck",
+    text: [
+      "{C:attention}Played{} cards become {C:attention}debuffed{} after scoring",
+      "Jokers will spawn as Eternal regardless of stake",
+      "{C:green}1 in 4{} cards are drawn face down",
+    ],
+    image_url: "img/CUCK/decks/insanedeck.png",
+    rarity: "Deck"
+    banner: "CUCK"
+  },
+  name: "Six Deck",
+  text: [
+    "All cards are {C:green}Sixes{}",
+  ],
+  image_url: "img/CUCK/decks/sixdeck.png",
+  rarity: "Deck"
+  banner: "CUCK"
+},
 ]
 
 let stickers = [
