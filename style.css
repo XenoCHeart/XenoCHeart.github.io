@@ -95,6 +95,11 @@ img.hasback {
   border-radius: 8px;
   padding: 8px;
 }
+.banner {
+  width: 142px;
+  border-radius: 8px;
+  padding: 8px;
+}
 .soulholder {
   width: 142px;
   height: 190px;

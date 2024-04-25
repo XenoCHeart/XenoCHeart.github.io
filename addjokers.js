@@ -71,8 +71,8 @@ let decks = [
       "Base Deck",
     ],
     image_url: "img/CUCK/decks/plaindeck.png",
-    rarity: "Deck"
-    banner: "CUCK"
+    rarity: "Deck",
+    banner: "Crimson's Ultimate Color Kollection"
   },
   {
     name: "Extreme Deck",
@@ -81,8 +81,8 @@ let decks = [
       "{C:red}1{} discard",
     ],
     image_url: "img/CUCK/decks/extremedeck.png",
-    rarity: "Deck"
-    banner: "CUCK"
+    rarity: "Deck",
+    banner: "Crimson's Ultimate Color Kollection"
   },
   {
     name: "Plain Deck",
@@ -92,17 +92,18 @@ let decks = [
       "{C:green}1 in 4{} cards are drawn face down",
     ],
     image_url: "img/CUCK/decks/insanedeck.png",
-    rarity: "Deck"
-    banner: "CUCK"
+    rarity: "Deck",
+    banner: "Crimson's Ultimate Color Kollection"
   },
+  {
   name: "Six Deck",
   text: [
     "All cards are {C:green}Sixes{}",
   ],
   image_url: "img/CUCK/decks/sixdeck.png",
-  rarity: "Deck"
-  banner: "CUCK"
-},
+  rarity: "Deck",
+  banner: "Crimson's Ultimate Color Kollection"
+  },
 ]
 
 let stickers = [
@@ -141,22 +142,204 @@ let blinds = [
 
 let shop_items = [
   {
-    name: "Joker",
+    name: "Overflowing Stock",
     text: [
-      "{C:mult}+4{} Mult"
+      '{C:attention}+1{} card slot',
+      'available in shop'
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
+    image_url: "img/T3Vouchers/overstock_three.png",
+    rarity: "Voucher",
+    banner: "Tier 3 Vouchers"
   },
   {
-    name: "Joker",
+    name: "Money Minting",
     text: [
-      "{C:mult}+4{} Mult"
+      'All cards and packs in',
+      'shop are {C:attention}75%{} off'
+    ],
+    image_url: "img/T3Vouchers/money_mint.png",
+    rarity: "Voucher",
+    banner: "Tier 3 Vouchers"
+  },
+  {
+  name: "Reroll Addiction",
+  text: [
+    'Rerolls cost',
+    '{C:money}$1{} less'
+  ],
+  image_url: "img/T3Vouchers/reroll_addict.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+
+{
+  name: "Glow in the Dark",
+  text: [
+    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
+    "{C:dark_edition}Polychrome{} cards",
+    "appear {C:attention}6X{} more often"],
+  image_url: "img/T3Vouchers/Glow_in_Dark.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Happy Little Accident",
+  text: [
+    "{C:attention}+1{} hand size",
+  ],
+  image_url: "img/T3Vouchers/ross.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+
+{
+  name: "Round of Applause",
+  text: [
+    "Permanently",
+    "gain {C:blue}+1{} hand",
+    "per round"
+],
+  image_url: "img/T3Vouchers/applause.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Down to Zero",
+  text: [
+    "Permanently",
+    "gain {C:red}+1{} discard",
+    "per round"
+],
+  image_url: "img/T3Vouchers/down_to_zero.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "In the Beginning...",
+  text: [
+    "{C:attention}-1{} Ante,",
+    "{C:blue}-1{} hand and",
+    "{C:red}-1{} discard",
+    "each round"
+],
+  image_url: "img/T3Vouchers/in_the_beginning.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Money Forest",
+  text: [
+    "Raise the cap on",
+    "interest earned",
+    "per round to {C:money}$40{}"
+],
+  image_url: "img/T3Vouchers/money_forest.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Tarot Factory",
+  text: [
+    "{C:tarot}Tarot{} cards appear",
+    "{C:attention}8X{} more frequently",
+    "in the shop"
+],
+  image_url: "img/T3Vouchers/Tarot_Factory.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Planet Factory",
+  text: [
+    "{C:planet}Planet{} cards appear",
+    "{C:attention}8X{} more frequently",
+    "in the shop"
+],
+  image_url: "img/T3Vouchers/Planet_Factory.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Neutral Particle",
+  text: [
+    "{C:dark_edition}+1{} Joker Slot"
+  ],
+  image_url: "img/T3Vouchers/Neutral_Particle.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Gaff Deck",
+  text: [
+    "{C:attention}Playing Cards{} appear {C:attention}2X{}",
+    "more frequently in the shop,",
+    "{C:attention}Playing Cards{} are now {C:green}FREE{}",
+    "",
+    "{X:white,C:EDITION}COMING SOON"
+  ],
+  image_url: "img/T3Vouchers/gaff_deck.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Exoplanets",
+  text: [
+    "At the start of the round, create a Negative Planet Card of the most played hand",
+    "",
+    "{X:white,C:EDITION}COMING SOON"
+  ],
+  image_url: "img/T3Vouchers/Exoplanets.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Omniscience",
+  text: [
+    "Tarot and Spectral cards may appear in any pack",
+    "",
+    "{X:white,C:EDITION}COMING SOON"
+  ],
+  image_url: "img/T3Vouchers/Omniscience.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+{
+  name: "Reboot",
+  text: [
+    "Pay $10 to Disable Boss Blind",
+    "",
+    "{X:white,C:EDITION}COMING SOON"
+  ],
+  image_url: "img/T3Vouchers/Reboot.png",
+  rarity: "Voucher",
+  banner: "Tier 3 Vouchers"
+},
+
+]
+
+let challenges = [
+  {
+    name: "Jimbo Only",
+    text: [
+      "You must only use cards with Jimbo"
     ],
     image_url: "img/j_joker.png",
-    rarity: "Pack"
+
+    rarity: "Challenge",
+    banner: "Crimson's Ultimate Color Kollection"
+  },
+  {
+    name: "Jimboless",
+    text: [
+      "Jimbo has been banned"
+    ],
+    image_url: "img/j_nojimbo.png",
+
+    rarity: "Challenge",
+    banner: "Crimson's Ultimate Color Kollection"
   },
 ]
+
 
 let cols = {
   
@@ -219,11 +402,13 @@ let rarities = {
   "Sticker": "#5d5dff",
   "Boss Blind": "#5d5dff",
   "Showdown": "#4584fa",
+  "Challenge": "#5d5dff"
 }
-
+ 
 let banners = {
-  "CUCK": "#990000", 
+  "Crimson's Ultimate Color Kollection": "#990000", 
   "Archived": "#990000", 
+  "Tier 3 Vouchers": "#CC8100",
 }
 
 regex = /{([^}]+)}/g;
@@ -260,7 +445,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
         <h3>${joker.name}</h3>
         <img src="${joker.image_url}" alt="${joker.name}" class="hasback" />
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
-        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner}</h4>
         <div class="text">${joker.text}</div>
       `;
     } else if (joker.soul) {
@@ -271,7 +456,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
           <img src="${joker.image_url}" alt="${joker.name}" class="soul-top" />
         </span>
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
-        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner}</h4>
         <div class="text">${joker.text}</div>
       `;
     } else {
@@ -279,7 +464,7 @@ let add_cards_to_div = (jokers, jokers_div) => {
         <h3>${joker.name}</h3>
         <img src="${joker.image_url}" alt="${joker.name}" />
         <h4 class="rarity" style="background-color: ${rarities[joker.rarity]}">${joker.rarity}</h4>
-        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner }</h4>
+        <h4 class="banner" style="background-color: ${banners[joker.banner]}">${joker.banner}</h4>
         <div class="text">${joker.text}</div>
       `;
     }
@@ -335,4 +520,11 @@ if (shop_items.length === 0) {
 } else {
   let shopitems_div = document.querySelector(".shopitems");
   add_cards_to_div(shop_items, shopitems_div);
+}
+
+if (challenges.length === 0) {
+  document.querySelector(".challengesfull").style.display = "none"
+} else {
+  let challenges_div = document.querySelector(".challenges");
+  add_cards_to_div(challenges, challenges_div);
 }
